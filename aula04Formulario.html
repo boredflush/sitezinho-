@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>TechConnect</title>
+</head>
+<body>
+
+<header>
+<h1>TechConnect</h1>
+</header>
+
+<nav>
+<a href="#inicio">Home</a> |
+<a href="#servicos">Serviços</a> |
+<a href="#contato">Contato</a>
+</nav>
+
+<main id="inicio">
+
+<section>
+<h1>Bem vindo a TechConnect</h1>
+<p>a TechConnect e uma empresa q faz coisas digitais para conectar negocios e pessoas. a gente oferece servicos bons pra ajudar sua empresa na internet.</p>
+<p>nosso time e muito bom e transforma ideias em sites e sistemas. a gente faz tudo com seguranca e qualidade para vc ficar feliz.</p>
+</section>
+
+<section id="servicos">
+<h1>nossos servicos</h1>
+
+<table border="1">
+<thead>
+<tr>
+<th>nome do serviço</th>
+<th>descrição</th>
+<th>preço</th>
+<th>tempo estimado</th>
+<th>imagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>desenvolvimento web</td>
+<td>criação de sites e sistemas sob medida</td>
+<td>R$ 2500,00</td>
+<td>20 dias</td>
+<td><img src="img/web.jpg" alt="web" width="80"></td>
+</tr>
+<tr>
+<td>marketing digital</td>
+<td>seo, anuncios e redes sociais</td>
+<td>R$ 1200,00</td>
+<td>30 dias</td>
+<td><img src="img/marketing.jpg" alt="marketing" width="80"></td>
+</tr>
+<tr>
+<td>consultoria ti</td>
+<td>analise e otimizacao de processos</td>
+<td>R$ 800,00</td>
+<td>10 horas</td>
+<td><img src="img/consultoria.jpg" alt="consultoria" width="80"></td>
+</tr>
+<tr>
+<td>suporte tecnico</td>
+<td>atendimento remoto e presencial</td>
+<td>R$ 150,00/mes</td>
+<td>24h resposta</td>
+<td><img src="img/suporte.jpg" alt="suporte" width="80"></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="5">*preços podem mudar, consulte a gente</td>
+</tr>
+</tfoot>
+</table>
+
+<h2>mais detalhes</h2>
+<table border="1">
+<tr>
+<th>categoria</th>
+<th>plano basico</th>
+<th>plano premium</th>
+</tr>
+<tr>
+<td rowspan="2">desenvolvimento</td>
+<td colspan="2">landing page + 5 paginas</td>
+</tr>
+<tr>
+<td>ecommerce simples</td>
+<td>ecommerce completo</td>
+</tr>
+</table>
+</section>
+
+<section id="contato">
+<h1>fala com a gente</h1>
+
+<form action="#" method="post">
+<label for="nome">seu nome:</label>
+<input type="text" id="nome" name="nome" required>
+<br><br>
+
+<label for="email">seu email:</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+
+<label for="telefone">telefone:</label>
+<input type="tel" id="telefone" name="telefone">
+<br><br>
+
+<label for="servico">qual servico vc quer:</label>
+<select id="servico" name="servico">
+<option>desenvolvimento web</option>
+<option>marketing digital</option>
+<option>consultoria ti</option>
+<option>suporte tecnico</option>
+</select>
+<br><br>
+
+<label for="mensagem">manda um recado:</label>
+<textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea>
+<br><br>
+
+<label for="termos">aceito os termos:</label>
+<input type="checkbox" id="termos" name="termos" required>
+<br><br>
+
+<button type="submit">enviar</button>
+</form>
+</section>
+
+</main>
+
+<footer>
+<p>© 2025 TechConnect - todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
